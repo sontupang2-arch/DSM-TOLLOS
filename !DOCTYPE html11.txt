@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>DSM TOOLS</title>
+</head>
+<body>
+  <h1>DSM TOOLS ONLINE</h1>
+  <a href="https://google.com">REPORT PHISHING</a>
+</body>
+</html>
