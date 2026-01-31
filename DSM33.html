@@ -1,61 +1,92 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>DSM Tools</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: #ffffff;
-      color: #111;
+      min-height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      background: #ffffff;
+      font-family: Arial, sans-serif;
+      color: #111;
     }
-    .box {
-      text-align: center;
-      border: 1px solid #eee;
-      padding: 30px;
-      border-radius: 12px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-      max-width: 320px;
+
+    .card {
       width: 90%;
+      max-width: 420px;
+      text-align: center;
+      border-radius: 16px;
+      padding: 30px 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
     }
+
     h1 {
-      margin-bottom: 20px;
-      font-size: 20px;
+      margin-bottom: 10px;
+      font-size: 22px;
     }
-    a {
+
+    p {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 25px;
+    }
+
+    .btn {
       display: block;
+      width: 100%;
+      padding: 14px;
       margin: 10px 0;
-      padding: 12px;
-      border-radius: 8px;
+      border-radius: 12px;
       text-decoration: none;
-      background: #000;
-      color: #fff;
       font-weight: bold;
+      color: #fff;
+      background: #111;
+      transition: 0.2s;
     }
-    a:hover {
+
+    .btn:hover {
       opacity: 0.85;
     }
+
+    .btn-instagram {
+      background: #E1306C;
+    }
+
+    .btn-report {
+      background: #0d6efd;
+    }
+
     footer {
       margin-top: 20px;
       font-size: 12px;
-      color: #888;
+      color: #999;
     }
   </style>
 </head>
-<body>
-  <div class="box">
-    <h1>DSM TOOLS</h1>
 
-    <a href="report.html">REPORT PHISHING</a>
-    <a href="like.html">LIKE SOSMED</a>
+<body>
+
+  <div class="card">
+    <h1>DSM TOOLS</h1>
+    <p>Pilih layanan yang tersedia</p>
+
+    <!-- GANTI LINK SESUAI PUNYA KAMU -->
+    <a class="btn btn-instagram" href="https://instagram.com/USERNAME_KAMU" target="_blank">
+      👍 Like Instagram
+    </a>
+
+    <a class="btn btn-report" href="https://forms.gle/LINK_FORM_KAMU" target="_blank">
+      🚨 Report Phishing
+    </a>
 
     <footer>© DSM Tools</footer>
   </div>
+
 </body>
 </html>
