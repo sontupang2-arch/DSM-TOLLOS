@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DSM TOOLS</title>
+  <style>
+    body {
+      background: #000;
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      width: 90%;
+      max-width: 420px;
+      padding: 25px;
+      border-radius: 20px;
+      border: 2px solid #ff004c;
+      box-shadow: 0 0 25px #ff004c;
+      text-align: center;
+    }
+    h1 {
+      background: #022;
+      padding: 15px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px #00ff66;
+    }
+    .buttons {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+    .btn {
+      padding: 14px;
+      background: #111;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 30px;
+      border: 1px solid #333;
+      transition: .3s;
+    }
+    .btn:hover {
+      background: #00ff66;
+      color: #000;
+      box-shadow: 0 0 15px #00ff66;
+    }
+    footer {
+      margin-top: 15px;
+      color: #00ff66;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>SELAMAT DATANG<br>DI DSM TOOLS</h1>
+
+    <div class="buttons">
+      <a href="https://google.com" target="_blank" class="btn">REPORT PHISHING →</a>
+      <a href="https://google.com" target="_blank" class="btn">LIKE SOSMED →</a>
+    </div>
+
+    <footer>© DSMTOOLS</footer>
+  </div>
+</body>
+</html>
